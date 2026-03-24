@@ -6,6 +6,23 @@ public class Empregado {
     private double comissao;
     private double bonus;
 
+    public Empregado(String nome,int idade, int tipo, double salario, double comissao, double bonus){ /*Construtor */
+        this.nome = nome;
+        this.idade = idade;
+        this.tipo = tipo;
+        this.salario = salario;
+        this.comissao = comissao;
+        this.bonus = bonus;
+    }
+
+    public int getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
     public double CalcularSalario() {
 
         if (tipo == 1) {

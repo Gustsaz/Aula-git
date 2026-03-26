@@ -1,8 +1,8 @@
 public class testeEmpregado {
     
     public static void main(String[] args) {
-        Empregado empregado1 = new Empregado("João", 30, 1, 5000, 0 , 0); /*Com construtor */
-        Empregado empregado2 = new Empregado("Ana", 20, 2, 3000, 5, 0);
+        Empregado empregado1 = new Empregado("João", 30, 1, 5000, 0 , 0, "Masculino"); /*Com construtor */
+        Empregado empregado2 = new Empregado("Ana", 20, 2, 3000, 5, 0, "Feminino");
 
         System.out.println(empregado1.getNome());
         System.out.println(empregado2.getNome());

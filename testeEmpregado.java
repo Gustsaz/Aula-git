@@ -4,7 +4,10 @@ public class testeEmpregado {
         Empregado empregado1 = new Empregado("João", 30, 1, 5000, 0 , 0, "Masculino"); /*Com construtor */
         Empregado empregado2 = new Empregado("Ana", 20, 2, 3000, 5, 0, "Feminino");
 
-        System.out.println(empregado1.getNome());
+        System.out.print("Nome empregado 1: "); 
+        System.out.println(empregado1.getNome()); 
+
+        System.out.print("Nome empregado 2: "); 
         System.out.println(empregado2.getNome());
 
         /* Sem construtor 
